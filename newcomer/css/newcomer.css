@@ -1,0 +1,217 @@
+/* --------------------- 
+ 全体
+ --------------------- */
+
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.5rem;
+    line-height: 2; /* 行間の倍率を指定 */
+}
+.center {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 30px;
+    text-align: center;
+}
+.border-bottom{
+    border-bottom: 1px solid #000;
+    max-width: 200px;
+    margin: 0 auto;
+}
+.margin-bottom{
+    margin-bottom: 30px;
+}
+.text-align{
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+
+/* --------------------- 
+ タイトル
+ ----------------------- */
+.title{
+    font-size: 3rem;
+}
+
+/* --------------------- 
+ スポーツランキング
+ --------------------- */
+.ranking {
+    margin: 60px 10px;
+}
+.vote{
+    margin: 60px 10px; 
+}
+.bar-graph {
+    height: 20px;
+    position: relative;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sport-button {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    background-color: #f2f2f2;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.sport-button:hover {
+    background-color: #e0e0e0;
+}
+.sportName {
+    border: 3px solid #f00;
+    width: 400px;
+    height: 35px;
+    border-radius: 100vh;
+}
+.rank {
+    width: 50px;
+    font-size: 2rem;
+}
+.rank span {
+    font-size: 3rem;
+    line-height: 1;
+}
+/* --------------------
+新人紹介
+-----------------------*/
+.newcomer__title{
+    margin: 100px 0;
+}
+.newcomer__title h2{
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #AB2924;
+    line-height: 1.5; 
+}
+
+/*------------------
+ 事業切り替えボタン 
+ ------------------*/
+.contents__change-button {
+    display: flex;
+}
+
+.contents__change-button h2 {
+    font-weight: 300;
+}
+
+.change-button__ict,
+.change-button__lbd {
+    width: 50%;
+    height: 20rem;
+    color: #333333;
+    text-align: center;
+    padding: 2.4rem 0;
+}
+
+.change-button__lbd {
+    color: silver;
+    background-color: #F6F6F5;
+}
+
+.change-button__ict.lbd-show {
+    color: silver;
+    background-color: #F6F6F5;
+}
+
+.change-button__lbd.lbd-show {
+    color: #000;
+    background-color: #ffffff;
+}
+.tab__title {
+    font-size: 2.5rem;
+}
+.tab__title span {
+    font-size: 4rem;
+}
+  /*-------------------------
+   業内容表示時
+  -------------------------*/
+.contents__ict,
+.contents__lbd {
+    height: 50rem;
+}
+.contents__ict {
+    background-position: center 0;
+    position: relative;
+}
+.contents__ict image {
+}
+.contents__ict.lbd-show {
+    display: none;
+}
+.contents__lbd {
+    display: none;
+    color: #e0e0e0;
+}
+.contents__lbd image {
+    background-size: cover;
+    background-position: center 0;
+    position: relative;
+}
+.contents__lbd.lbd-show {
+    display: block;
+}
+
+
+.container{
+    max-width:800px;
+    height: 400px;
+    position: relative;
+    margin: 60px 200px 60px 10px;
+}
+.container img{
+    width:100%;
+}
+.container h3{
+    position: absolute;
+    top:0;
+    left:0;
+    color: red;
+    padding:0;
+    margin:0;
+}
+.container button{
+    position: relative;
+    right:50px;
+    bottom:10px;
+    color: red;
+    padding:0;
+    margin:0;
+}
+.container p{
+    position: relative;
+    right:0px;
+    bottom:0px;
+    color: red;
+    padding:0;
+    margin:0;
+}
+.detail {
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    opacity: 0.5;
+    
+}
+.newcomer-btn{
+    
+}
+.detail.open{
+    transform: translateX(20%);
+    opacity: 1;
+    transition: transform .3s,opacity .3s;
+}
