@@ -1,0 +1,76 @@
+/* ==============================
+            全体の設定
+=================================== */
+
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+}
+
+/* 文字の配置：左揃え中央寄せ */
+.wrapper {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+/* title文字：ラインの上の文字 */
+.font-style-title{
+    font-family: Helvetica,"游ゴシック体", 'YuGothic', "游ゴシック", "Yu Gothic", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #000;
+    font-size: 1.3rem;   
+}
+
+/* 括弧内文字ボルドー */
+.font-style-words{
+    font-family: Helvetica,"游ゴシック体", 'YuGothic', "游ゴシック", "Yu Gothic", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #8B2022;
+    font-size: 3rem;
+    margin: 10px auto;   
+}
+
+/* 括弧内文字ブラック */
+.font-style-words2{
+    font-family: Helvetica,"游ゴシック体", 'YuGothic', "游ゴシック", "Yu Gothic", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #000;
+    font-size: 3rem;
+    margin: 10px auto;   
+}
+
+/* コメント（太字） */
+.font-style-comments{
+    font-family: Helvetica,"游ゴシック体", 'YuGothic', "游ゴシック", "Yu Gothic", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #000;
+    font-size: 1.6rem;   
+}
+
+/* コメント（通常） */
+.font-style-comments2{
+    font-family: Helvetica,"游ゴシック体", 'YuGothic', "游ゴシック", "Yu Gothic", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #000;
+    font-size: 1.4rem;   
+}
+
+/*短ライン*/
+.border-line{
+    border-top:1px solid #000;
+    width:25%
+}
+
+/*長ライン*/
+.border-line2{
+    border-top:1px solid #000;
+    width:40%
+}

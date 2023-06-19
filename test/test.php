@@ -127,19 +127,19 @@ $conn = null;
     <meta name="twitter:card" content="summary"/>
     <!-- favicon -->
     <link rel="icon" href="img/favicon.ico">    
-    <title>新人紹介</title>
+    <title>テスト</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
     <script src="../js/newcomer.js"></script>
     <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/newcomer.css">
+    <!-- <link rel="stylesheet" href="../css/newcomer.css"> -->
     <link rel="stylesheet" href="../css/common.css">
 </head>
 
 <body>
-    <div class="center">
+    <div class="wrapper">
         <div class="text-align">
-            <p class="border-bottom font-style-title">質問</p>
-            <p class="title">「あなたの好きなスポーツは何ですか？」</p>
+            <p class="border-bottom font-style-title ">質問</p>
+            <p class="title font-style-words border-line">「あなたの好きなスポーツは何ですか？」</p>
             <p>今日の人気スボーツランキング<br>上位5つ</p>
         </div>
 
@@ -230,4 +230,5 @@ $conn = null;
 
 </body>
 
-</html>
+</html>  
+    

@@ -6,7 +6,7 @@ html{
     font-size: 62.5%;
 }
 body{
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     line-height: 2; /* 行間の倍率を指定 */
 }
 .center {
@@ -148,8 +148,6 @@ a {
     background-position: center 0;
     position: relative;
 }
-.contents__ict image {
-}
 .contents__ict.lbd-show {
     display: none;
 }
@@ -185,17 +183,18 @@ a {
     margin:0;
 }
 .container button{
+    max-width:800px;
     position: relative;
-    right:50px;
-    bottom:10px;
+    right: -150px;
+    bottom:150px;
     color: red;
     padding:0;
     margin:0;
 }
 .container p{
     position: relative;
-    right:0px;
-    bottom:0px;
+    right: -150px;
+    bottom:150px;
     color: red;
     padding:0;
     margin:0;
@@ -204,14 +203,10 @@ a {
     font-weight: bold;
     font-size: 2rem;
     text-align: center;
-    opacity: 0.5;
-    
-}
-.newcomer-btn{
-    
+    opacity: 0.5;  
 }
 .detail.open{
-    transform: translateX(20%);
+    transform: translateX(40%);
     opacity: 1;
     transition: transform .3s,opacity .3s;
 }
